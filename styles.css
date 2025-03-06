@@ -1,0 +1,189 @@
+* { /* Default page styling */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+}
+
+/* Nav bar start */
+
+#nav-bar {
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+}
+
+#nav-menu {
+    margin-right: 10px;
+}
+
+#nav-menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+#nav-menu a {
+    color: white;
+}
+
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+/* Nav bar end */
+
+/* Mission Statement Start */
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainimg {
+    width: auto;
+    height: 700px;
+}
+
+#mission {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+
+#mission-statement {
+    width: 1200px;
+    background-color: black;
+    text-align: center;
+    opacity: 80%;
+}
+
+/* Mission Statement End */
+
+/* Tea Of The Month Start */
+
+#tea-of-the-month {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1000px;
+    margin: 90px auto;
+}
+
+#totm-titles h3 {
+    margin-bottom: 30px;
+}
+
+#totm-titles h4 {
+    margin-bottom: 20px;
+}
+
+#totm-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+#totm-images img {
+    width: 300px;
+    height: 200px;
+    padding: 20px 10px;
+}
+
+#totm-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#totm-item p {
+    padding-top: 10px;
+}
+
+/* Tea Of The Month End */
+
+/* Locations Start */
+
+#l-container {
+    background-image: url(images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#l-container h2 {
+    margin-bottom: 15px;
+}
+
+.location-box-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-box {
+    width: 300px;
+    height: 290px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 40px;
+}
+
+.location-box h3 {
+    margin: 20px;
+}
+
+.location-box p {
+    margin: 35px 0 50px 0;
+}
+/* Locations End */
+
+/* Contact details Start */
+
+.contact-details {
+    text-align: center;
+    margin: 20px 0 50px;
+}
+
+/* Contact details End */
+
+/* Footer Start */
+
+footer h4 {
+    text-align: left;
+    margin: 0 0 30px 20px;
+}
